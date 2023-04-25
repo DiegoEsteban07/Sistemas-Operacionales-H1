@@ -143,5 +143,5 @@
 
 9. 
 
-* El proceso de comunicación entre el cliente y el servidor implica que el cliente envía una solicitud al servidor, que describe el servicio o recurso que se necesita. El servidor recibe la solicitud y la procesa para determinar la acción necesaria. A continuación, el servidor envía una respuesta al cliente, que incluye la información o servicio solicitado. Finalmente, el cliente recibe la respuesta del servidor y la procesa para realizar la tarea necesaria. Este modelo tiene ventajas como la facilidad de mantenimiento, escalabilidad y mayor seguridad.
+* El proceso de comunicación entre estos 2 implica que el cliente envía una solicitud al servidor donde describe el servicio o recurso que se necesita. El servidor despues de recibir esta solicitud la procesa para determinar la acción necesaria. Dado este proceso el servidor envía una respuesta al cliente, que incluye la información o servicio solicitado. por ultimo el cliente recibe la respuesta del servidor y la procesa para realizar la tarea necesaria. Este modelo tiene ventajas como la facilidad de mantenimiento, escalabilidad y mayor seguridad.
 
