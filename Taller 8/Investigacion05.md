@@ -35,7 +35,7 @@ Proceso | Tiempo de ráfaga | Prioridad
  
    * FCFS:
  
- 
+ ![Diagrama de Grantt FCFS]()
 
  
  
