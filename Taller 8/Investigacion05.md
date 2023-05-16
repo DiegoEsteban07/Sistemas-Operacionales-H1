@@ -45,12 +45,12 @@ Proceso | Tiempo de ráfaga | Prioridad
  
  ![Diagrama de Grantt FCFS](https://github.com/DiegoEsteban07/Sistemas-Operacionales-H1/blob/main/Taller%208/Prioridad.jpg?raw=true)
  
-  * RR:
+  * RR (cuanto = 1):
  
- ![Diagrama de Grantt FCFS](https://github.com/DiegoEsteban07/Sistemas-Operacionales-H1/blob/main/Taller%208/RR2.jpg?raw=true)
+ ![Diagrama de Grantt FCFS](https://github.com/DiegoEsteban07/Sistemas-Operacionales-H1/blob/main/Taller%208/RR3.jpg?raw=true)
 
 
-### 6 Y 7. Tiempo de ejecucion y de espera
+### 6
  
    * FCFS:
  
