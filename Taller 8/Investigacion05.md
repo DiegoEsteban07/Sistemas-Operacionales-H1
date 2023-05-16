@@ -54,7 +54,7 @@ Proceso | Tiempo de ráfaga | Prioridad
  
    * Tiempo Ejecución:
  
- ![Diagrama de Grantt FCFS](https://github.com/DiegoEsteban07/Sistemas-Operacionales-H1/blob/main/Taller%208/Ejecucion.jpg?raw=true)
+ ![Diagrama de Grantt FCFS](https://github.com/DiegoEsteban07/Sistemas-Operacionales-H1/blob/main/Taller%208/Ejecucion2.jpg?raw=true)
  
  
 ### 7.
