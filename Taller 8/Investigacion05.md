@@ -1,4 +1,4 @@
-## Investigacion 08
+## Investigacion Taller 8
 
 
 ### 1.
@@ -50,20 +50,30 @@ Proceso | Tiempo de ráfaga | Prioridad
  ![Diagrama de Grantt FCFS](https://github.com/DiegoEsteban07/Sistemas-Operacionales-H1/blob/main/Taller%208/RR3.jpg?raw=true)
 
 
-### 6
+### 6.
  
    * Tiempo Ejecución:
  
  ![Diagrama de Grantt FCFS](https://github.com/DiegoEsteban07/Sistemas-Operacionales-H1/blob/main/Taller%208/Ejecucion.jpg?raw=true)
  
  
-### 7
+### 7.
  
    * Tiempo Espera:
  
  ![Diagrama de Grantt FCFS](https://github.com/DiegoEsteban07/Sistemas-Operacionales-H1/blob/main/Taller%208/Espera.jpg?raw=true)
  
+ ### 8.
  
+   * El algoritmo de planificación que puede dar lugar a bloqueos indefinidos se conoce como inanicion y puede ocurrir en algoritmos de planificación basados en prioridades. Cuando un proceso de alta prioridad siempre recibe la asignación de la CPU y los procesos de baja prioridad nunca obtienen la oportunidad de ejecutarse, pueden quedar bloqueados indefinidamente, lo que lleva a la inanición.
+En sistemas donde el algoritmo de planificación se basa únicamente en la prioridad de los procesos, existe el riesgo de que los procesos de baja prioridad nunca se ejecuten si los procesos de alta prioridad están constantemente en ejecución o se generan continuamente nuevos procesos de alta prioridad. Esto puede provocar que los procesos de baja prioridad queden bloqueados indefinidamente y nunca tengan la oportunidad de completar su ejecución.
+
+### 9:
+
+* Se puede usar una estrategia que la computadora puede utilizar para maximizar la cantidad de tiempo de CPU asignada al proceso del usuario es asignar un quantum de tiempo más largo en la cola de prioridad más baja o en la cola de procesos de usuario.
+* Tambien se puede asignar un quantum de tiempo más largo en la cola de prioridad más baja o en la cola de procesos de usuario. Esto permite que los procesos de usuario tengan una mayor oportunidad de utilizar la CPU durante un período prolongado antes de que sean suspendidos y pasen a colas de prioridad más alta. Al asignar un quantum de tiempo más largo en la cola de procesos de usuario, se le da prioridad a la ejecución de los procesos que están directamente relacionados con las tareas del usuario, lo que puede mejorar la experiencia general del usuario y maximizar el tiempo de CPU asignado a sus procesos.
+
+* Es importante destacar que la estrategia exacta utilizada puede variar según la implementación específica del sistema y las necesidades del entorno. 
  
 
  
