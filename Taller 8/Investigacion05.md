@@ -47,10 +47,26 @@ Proceso | Tiempo de ráfaga | Prioridad
  
   * RR:
  
- ![Diagrama de Grantt FCFS](https://github.com/DiegoEsteban07/Sistemas-Operacionales-H1/blob/main/Taller%208/RR.jpg?raw=true)
+ ![Diagrama de Grantt FCFS](https://github.com/DiegoEsteban07/Sistemas-Operacionales-H1/blob/main/Taller%208/RR2.jpg?raw=true)
 
+
+### 5.
  
+    * FCFS:
  
+ ![Diagrama de Grantt FCFS](https://github.com/DiegoEsteban07/Sistemas-Operacionales-H1/blob/main/Taller%208/FCFS2.jpg?raw=true)
+ 
+  * SJF:
+ 
+ ![Diagrama de Grantt FCFS](https://github.com/DiegoEsteban07/Sistemas-Operacionales-H1/blob/main/Taller%208/SJF.jpg?raw=true)
+ 
+  * PRIORIDAD:
+ 
+ ![Diagrama de Grantt FCFS](https://github.com/DiegoEsteban07/Sistemas-Operacionales-H1/blob/main/Taller%208/Prioridad.jpg?raw=true)
+ 
+  * RR:
+ 
+ ![Diagrama de Grantt FCFS](https://github.com/DiegoEsteban07/Sistemas-Operacionales-H1/blob/main/Taller%208/RR2.jpg?raw=true)
  
  
  
