@@ -21,7 +21,7 @@ Las cuatro condiciones necesarias para que se produzca un interbloqueo son: excl
  * Este problema plantea una situación en la que varios filósofos se sientan alrededor de una mesa y tienen platos de comida frente a ellos, y entre cada par de filósofos hay un tenedor. Los filósofos alternan entre pensar y comer, pero solo pueden comer si pueden agarrar dos tenedores, uno a cada lado.
  * El objetivo del problema es evitar el interbloqueo, que es una situación en la que los filósofos se quedan esperando indefinidamente los tenedores que necesitan para comer, sin poder liberarlos. 
 
-### Para asegurar que se cumplan las condiciones básicas de interbloqueo se debe asegurar:
+  ### Para asegurar que se cumplan las condiciones básicas de interbloqueo se debe asegurar:
 
 1. Exclusión mutua: Solo un filósofo puede tomar un tenedor a la vez.
 2. Espera limitada: Un filósofo no puede esperar indefinidamente para tomar los tenedores que necesita. 
@@ -72,6 +72,31 @@ Las cuatro condiciones necesarias para que se produzca un interbloqueo son: excl
     Basándonos en esta verificación, concluimos que el sistema no está libre de interbloqueo, ya que la solicitud del Proceso 2 no puede ser satisfecha sin causar una situación de interbloqueo. Para que el sistema esté libre de interbloqueo, todas las solicitudes deben poder ser satisfechas sin exceder la capacidad de los recursos disponibles. En este caso, si se requieren más recursos de los que están disponibles, puede producirse un interbloqueo.
 
 ### 8.
+
+ * para evitar interbloqueos en el problema de los filósofos, los filósofos deben seguir la regla de levantar solo un palillo a la vez y solo hacerlo si ambos palillos adyacentes están disponibles.
+
+  ### utilizando la siguiente regla simple para determinar si una solicitud de palillos puede ser satisfecha:
+
+1. Cada filósofo solo puede levantar un palillo a la vez.
+2. Un filósofo solo puede levantar un palillo si ambos palillos adyacentes a él están disponibles.
+3. Si un filósofo no puede obtener ambos palillos adyacentes, debe colocar el palillo que ya ha levantado antes de hacer una nueva solicitud.
+
+### 9.
+
+ * **suposición optimista realizada en el algoritmo de detección de interbloqueos:** es la suposicion de que los procesos no se bloquearán entre sí y que todas las solicitudes de recursos se concederán de manera inmediata.
+ 
+  Esta suposición optimista puede violarse en situaciones donde se produce una competencia o conflicto entre los procesos por los recursos.
+  ### Para violar esta suposicion se debe seguir las siguientes instrucciones:
+  
+  1. Interbloqueo mutuo: Si varios procesos están esperando a que se liberen recursos que están siendo retenidos por otros procesos, puede producirse un interbloqueo mutuo. Ningún proceso podrá avanzar y se quedará esperando indefinidamente.
+
+  2. Interbloqueo circular: Si hay un ciclo de dependencias entre los procesos y los recursos que están solicitando, se puede producir un interbloqueo circular. Cada proceso está esperando a que se libere un recurso que está siendo utilizado por otro proceso en el ciclo, lo que lleva a una situación de bloqueo mutuo.
+
+  3. Asignación no apropiada de recursos: Si los recursos no se asignan correctamente a los procesos, es posible que algunos procesos no puedan obtener los recursos necesarios para completar su ejecución. Esto puede conducir a bloqueos si los recursos necesarios no están disponibles.
+  
+
+
+
 
 
 
