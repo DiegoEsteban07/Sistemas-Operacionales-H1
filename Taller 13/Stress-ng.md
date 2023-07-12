@@ -1,3 +1,19 @@
-# STRESS-NG
+# STRESS-NG - Taller 13
 
-### 1. Primer punto
+## Herramientas:
+
+### Stress-ng
+
+*
+
+## CPU
+
+*
+
+## Memoria
+
+*
+
+## Procesos e Hilos
+
+*
