@@ -80,17 +80,17 @@
    *  Tiempo real transcurrido: 10.01 segundos
    *  Tasa de operaciones bogo por segundo: 32295.61
 
-PRUEBA 3:
+* PRUEBA 3:
    *  Operaciones bogo: 333428
    *  Tiempo real transcurrido: 11.56 segundos
    *  Tasa de operaciones bogo por segundo: 28834.45
 
-PRUEBA 4:
+* PRUEBA 4:
    *  Operaciones bogo: 324330
    *  Tiempo real transcurrido: 10.04 segundos
    *  Tasa de operaciones bogo por segundo: 32304.44
    *  
-PRUEBA 5:
+* PRUEBA 5:
    *  Operaciones bogo: 324287
    *  Tiempo real transcurrido: 10.01 segundos
    *  Tasa de operaciones bogo por segundo: 32412.31
@@ -151,8 +151,8 @@ PRUEBA 5:
    *  Operaciones bogo de HDD: 13565
    *  Tiempo real transcurrido: 5.68 segundos
 
-Al analizar los resultados, podemos observar que la cantidad de operaciones bogo varía dependiendo de la carga de trabajo específica. En general, las pruebas con cargas de trabajo más intensivas, como la CPU y el HDD, tienden a generar una mayor cantidad de operaciones bogo. Por otro lado, las pruebas con cargas de trabajo menos intensivas, como el IO, muestran una cantidad relativamente baja de operaciones bogo.
+* Al analizar los resultados, podemos observar que la cantidad de operaciones bogo varía dependiendo de la carga de trabajo específica. En general, las pruebas con cargas de trabajo más intensivas, como la CPU y el HDD, tienden a generar una mayor cantidad de operaciones bogo. Por otro lado, las pruebas con cargas de trabajo menos intensivas, como el IO, muestran una cantidad relativamente baja de operaciones bogo.
 
-El tiempo real transcurrido se mantiene cerca del objetivo de 10 segundos en todas las pruebas, lo que indica que se aplicó la carga de trabajo durante el tiempo deseado.
+    El tiempo real transcurrido se mantiene cerca del objetivo de 10 segundos en todas las pruebas, lo que indica que se aplicó la carga de trabajo durante el tiempo deseado.
 
-En conclusión, el rendimiento del sistema varía según el tipo de carga de trabajo. Las pruebas con cargas de trabajo intensivas en CPU y HDD tienden a generar una mayor cantidad de operaciones bogo, mientras que las cargas de trabajo menos intensivas, como el IO, generan una cantidad menor. Estos resultados sugieren que el sistema responde de manera diferente a diferentes tipos de cargas de trabajo y pueden indicar cómo se distribuye y gestiona la carga en los recursos del sistema.
+  En conclusión, el rendimiento del sistema varía según el tipo de carga de trabajo. Las pruebas con cargas de trabajo intensivas en CPU y HDD tienden a generar una mayor cantidad de operaciones bogo, mientras que las cargas de trabajo menos intensivas, como el IO, generan una cantidad menor. Estos resultados sugieren que el sistema responde de manera diferente a diferentes tipos de cargas de trabajo y pueden indicar cómo se distribuye y gestiona la carga en los recursos del sistema.
